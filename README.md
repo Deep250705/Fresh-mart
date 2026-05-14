@@ -31,9 +31,3 @@ npm run dev
 ```
 
 Frontend runs on `http://localhost:5173` and proxies `/api` to the backend.
-
-## Notes
-
-- Do **not** commit `.env` files. Secrets must be rotated if exposed.
-- Build output (`frontend/dist`) is intentionally ignored and should be produced in CI/CD.
-
